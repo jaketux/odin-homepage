@@ -132,5 +132,80 @@ body {
   gap: 100px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 415px) {
+  body {
+    width: 100%;
+  }
+
+  .top-container {
+    width: 100%;
+    height: 30%;
+  }
+
+  .top-container-background {
+    height: 0;
+  }
+
+  .tokyo-image {
+    z-index: 0;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+  }
+
+  .about-me-box {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 30%;
+  }
+
+  .about-me-header {
+    padding: 0;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 22px;
+  }
+
+  .about-me-text {
+    font-size: 18px;
+    padding: 0;
+    margin: 5% 10%;
+    text-align: center;
+  }
+
+  .about-me-icons {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+  .icon:last-child {
+    margin-right: 0px;
+  }
+
+  .second-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 80%;
+  }
+
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .projects-header {
+    margin-bottom: 5%;
+  }
 }
